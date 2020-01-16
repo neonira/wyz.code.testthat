@@ -6,6 +6,7 @@ env:
      - R_BUILD_ARGS=" " 
      - R_CHECK_ARGS="--as-cran"
      - BOOTSTRAP_LATEX="1"
+     - CODECOV_TOKEN="798e8f22-5672-46c2-b565-0eef8d1e4df6"
      
 r_packages:
   - covr
